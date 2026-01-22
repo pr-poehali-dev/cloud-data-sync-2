@@ -21,7 +21,12 @@ export function Header() {
         <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
           Правила
         </a>
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
+        <a 
+          href="https://discord.gg/4KaJydeDk9" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-sm text-gray-300 hover:text-white transition-colors"
+        >
           Discord
         </a>
       </nav>

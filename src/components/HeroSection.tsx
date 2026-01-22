@@ -20,7 +20,11 @@ export function HeroSection() {
         <Button className="rounded-full bg-violet-600 px-6 hover:bg-violet-700 text-white">
           Купить привилегию <Icon name="ShoppingCart" size={16} className="ml-2" />
         </Button>
-        <Button variant="outline" className="rounded-full border-gray-700 bg-transparent text-white hover:bg-gray-800">
+        <Button 
+          variant="outline" 
+          className="rounded-full border-gray-700 bg-transparent text-white hover:bg-gray-800"
+          onClick={() => window.open('https://discord.gg/4KaJydeDk9', '_blank')}
+        >
           <Icon name="Users" size={16} className="mr-2" /> Наш Discord
         </Button>
       </div>
